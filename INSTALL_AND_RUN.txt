@@ -1,0 +1,67 @@
+SUBSCRIPTION TRACKER - QUICK START GUIDE
+=========================================
+
+OPTION 1: DIRECT HTML FILE (Simplest & Most Reliable)
+----------------------------------------------------
+1. Navigate to: C:\Users\DELL\Desktop\SubscriptionTracker\
+2. Double-click on: index.html
+3. The application will open in your default web browser
+4. All data is saved locally in your browser's localStorage
+
+OPTION 2: DESKTOP SHORTCUT WITH CHROME APP MODE (Recommended for app-like experience)
+-------------------------------------------------------------------------------------
+1. Right-click on Desktop → New → Shortcut
+2. For location, paste one of these (choose based on your browser):
+
+   For Google Chrome:
+   "%ProgramFiles%\Google\Chrome\Application\chrome.exe" --app="C:\Users\DELL\Desktop\SubscriptionTracker\index.html"
+
+   For Microsoft Edge:
+   "%ProgramFiles%\Microsoft\Edge\Application\msedge.exe" --app="C:\Users\DELL\Desktop\SubscriptionTracker\index.html"
+
+3. Click Next
+4. Name it: Subscription Tracker
+5. Click Finish
+6. Double-click the shortcut to launch the app in its own window (no browser chrome)
+
+OPTION 3: BATCH FILE (Created for you)
+--------------------------------------
+1. Double-click: run_subscription_tracker.bat
+2. This will automatically launch the app in Chrome/App Mode if available
+3. Falls back to regular browser if Chrome/Edge not found
+
+FEATURES INCLUDED:
+✅ Visual metrics header (total spending, active count, upcoming renewals)
+✅ Interactive table (add/edit/toggle/delete/filter by category)
+✅ Data visualizations (pie chart + 12-month projection)
+✅ Local data persistence (browser localStorage)
+✅ CSV export/import
+✅ Dark mode Tailwind CSS design
+✅ Pre-loaded sample data (Netflix, Spotify, Gym)
+
+DATA STORAGE:
+- Your subscription data is stored in your browser's localStorage
+- To backup: Use the Export CSV button
+- To restore: Use the Import CSV button
+- Data persists between browser sessions
+- No external servers or accounts required
+
+SYSTEM REQUIREMENTS:
+- Windows 10 or later
+- Modern browser (Chrome, Firefox, Edge, Safari - Chrome recommended for app mode)
+- Internet connection (only needed initially to load Tailwind CSS and Chart.js from CDN)
+- After first load, works offline (except for CDN resources which are cached)
+
+TROUBLESHOOTING:
+- If charts don't show: Check internet connection for initial CDN load
+- If layout looks wrong: Try refreshing (Ctrl+F5) or use Chrome
+- To clear all data: Use browser developer tools → Application → Clear storage
+- Export your data first if you want to keep it before clearing
+
+SECURITY & PRIVACY:
+- 100% client-side - no data leaves your computer
+- No tracking, no analytics, no telemetry
+- Open source code - you can inspect index.html to verify
+
+ENJOY TRACKING YOUR SUBSCRIPTIONS!
+==================================

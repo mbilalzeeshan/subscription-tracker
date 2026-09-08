@@ -1,0 +1,33 @@
+Subscription Tracker - Build Information
+
+BUILD DATE: $(date)
+BUILD VERSION: 1.0.0
+
+EXECUTABLE LOCATION:
+  C:\Users\DELL\Desktop\SubscriptionTracker\dist\win-unpacked\Subscription Tracker.exe
+
+HOW TO USE:
+  1. Navigate to the folder above
+  2. Double-click "Subscription Tracker.exe" to launch the application
+  3. The application will create a data file in your AppData folder to store your subscriptions
+
+NOTES:
+  - This is a portable executable produced by Electron Builder
+  - It does not require installation - simply run the .exe file
+  - All data is stored locally in: %APPDATA%\subscription-tracker\subscriptions.json
+  - To move the application to another computer, copy the entire win-unpacked folder
+  - The application requires Windows 10 or later
+
+TROUBLESHOOTING:
+  If you see an error about missing DLLs, please ensure you have the latest Windows updates installed.
+  If the application fails to start, try running it as an administrator.
+
+For a traditional installer (.exe with setup wizard), you would need to:
+  1. Enable Developer Mode in Windows Settings (for symbolic link privileges)
+  2. Or run the build process in an elevated administrator command prompt
+  3. Then run: npm run build:win
+
+However, the portable executable above provides the same functionality without installation.
+
+---
+Built with Electron, React, Tailwind CSS, and Chart.js
